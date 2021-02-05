@@ -14,6 +14,7 @@ typedef struct aresta {
 
 
 //Exercício 1:
+//Também dava Tabela Hash
 Btree constroi_Btree(Btree *t, int x, int *flag){
     if(!(*t)){
         *t= malloc(sizeof(struct Abin));
