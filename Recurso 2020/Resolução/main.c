@@ -151,7 +151,7 @@ int stronglyConnected (GraphL g, int n){
     for(; origem< n && result; origem++){
         for(int destino= origem+ 1; destino< n && result; destino++){
             flag1= consulta(g, origem, destino, n);
-            flag2= consulta(g, destino, origem, n);
+            if(flag1== 1) flag2= consulta(g, destino, origem, n);
             result= flag1 && flag2;
         }
     }
