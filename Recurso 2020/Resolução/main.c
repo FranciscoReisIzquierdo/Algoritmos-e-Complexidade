@@ -31,7 +31,7 @@ typedef int GraphM[MAX][MAX];
 
 typedef struct edge {
     int dest;
-    struct edge *next;
+    struct edge *next; 
 };
 typedef struct edge *GraphL[MAX];
 
