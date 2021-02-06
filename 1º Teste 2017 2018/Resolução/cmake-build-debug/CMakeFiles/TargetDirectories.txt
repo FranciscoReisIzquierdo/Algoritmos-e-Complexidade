@@ -1,3 +1,0 @@
-C:/Users/HP/CLionProjects/1_Teste_2017_2018/cmake-build-debug/CMakeFiles/1_Teste_2017_2018.dir
-C:/Users/HP/CLionProjects/1_Teste_2017_2018/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/HP/CLionProjects/1_Teste_2017_2018/cmake-build-debug/CMakeFiles/rebuild_cache.dir
