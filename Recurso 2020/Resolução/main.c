@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 4
-
+//duarte
 
 /*  Grafo em Matriz de Adjacência (Exercício 4):
     [[1, 1, -1, -1]
