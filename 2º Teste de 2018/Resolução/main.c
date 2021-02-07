@@ -12,6 +12,9 @@ typedef struct aresta {
     struct aresta *prox;
 }*Grafo [NV];
 
+/*
+*NOTA: Exercícios 2 e 4 não resolvidos pois a matéria dos mesmo não foi abordada no ano letivo de 2020/2021*
+*/
 
 //Exercício 1:
 //Também dava Tabela Hash
