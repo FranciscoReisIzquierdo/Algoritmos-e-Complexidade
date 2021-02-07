@@ -1,0 +1,40 @@
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\HP\Desktop\Recurso 2019\Resolução"
+-- The C compiler identification is GNU 9.2.0
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe - broken
+CMake Error at C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "C:/MinGW/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/HP/Desktop/Recurso 2019/ResoluÃ§Ã£o/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_36b4c/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_36b4c.dir\build.make CMakeFiles/cmTC_36b4c.dir/build
+    mingw32-make.exe[1]: Entering directory 'C:/Users/HP/Desktop/Recurso 2019/ResoluÃ¾Ã’o/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_36b4c.dir/testCCompiler.c.obj
+    C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_36b4c.dir\testCCompiler.c.obj   -c "C:\Users\HP\Desktop\Recurso 2019\Resoluâ”œÂºâ”œÃºo\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+    gcc.exe: error: C:\Users\HP\Desktop\Recurso 2019\Resolu+â•‘+Â·o\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+    gcc.exe: fatal error: no input files
+    compilation terminated.
+    CMakeFiles\cmTC_36b4c.dir\build.make:84: recipe for target 'CMakeFiles/cmTC_36b4c.dir/testCCompiler.c.obj' failed
+    mingw32-make.exe[1]: *** [CMakeFiles/cmTC_36b4c.dir/testCCompiler.c.obj] Error 1
+    mingw32-make.exe[1]: Leaving directory 'C:/Users/HP/Desktop/Recurso 2019/ResoluÃ¾Ã’o/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Makefile:140: recipe for target 'cmTC_36b4c/fast' failed
+    mingw32-make.exe: *** [cmTC_36b4c/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/HP/Desktop/Recurso 2019/ResoluÃ§Ã£o/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/HP/Desktop/Recurso 2019/ResoluÃ§Ã£o/cmake-build-debug/CMakeFiles/CMakeError.log".
