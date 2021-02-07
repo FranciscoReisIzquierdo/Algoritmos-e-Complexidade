@@ -123,7 +123,7 @@ int aproxMeio(Graph g, int o, int d){
 }
  */
 
-//Exercício 5 b) (está resolvido nos apontamentos do JBB slide 36 Complexidade (função quickSelect))
+//Exercício 5 a) T(N)= [sum i* N, i= 0 to log2(N- 2)]    b) (está resolvido nos apontamentos do JBB slide 36 Complexidade (função quickSelect))
 
 int main() {
     HTable h;
