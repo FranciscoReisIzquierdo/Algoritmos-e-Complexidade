@@ -30,7 +30,7 @@ Btree constroi_Btree(Btree *t, int x, int *flag){
     else if((*t)-> valor< x) return (*t)-> dir= constroi_Btree(&((*t)-> dir), x, flag);
     else{
         *flag= 1;
-        return *t; 
+        return *t;  
     }
 }
 
