@@ -67,9 +67,6 @@ int update(HTable h, int key, int value){
 }
 
 
-
-
-
 /*
 //Exercício 4
 //Nota: A função "addEdgeFringe" e "updateFringe" irão sempre trabalhar com a orla ordenada (crescentemente) pelos pesos dos vértices adjacentes
