@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Recurso_2019_2020.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Recurso_2019_2020.dir/objects.a @CMakeFiles\Recurso_2019_2020.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Recurso_2019_2020.dir/objects.a -Wl,--no-whole-archive  -o Recurso_2019_2020.exe -Wl,--out-implib,libRecurso_2019_2020.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Recurso_2019_2020.dir\linklibs.rsp
