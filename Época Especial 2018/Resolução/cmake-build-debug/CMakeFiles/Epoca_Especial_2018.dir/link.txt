@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Epoca_Especial_2018.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Epoca_Especial_2018.dir/objects.a @CMakeFiles\Epoca_Especial_2018.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Epoca_Especial_2018.dir/objects.a -Wl,--no-whole-archive  -o Epoca_Especial_2018.exe -Wl,--out-implib,libEpoca_Especial_2018.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Epoca_Especial_2018.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+C:/Users/HP/CLionProjects/Epoca_Especial_2018/cmake-build-debug/CMakeFiles/Epoca_Especial_2018.dir
+C:/Users/HP/CLionProjects/Epoca_Especial_2018/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/HP/CLionProjects/Epoca_Especial_2018/cmake-build-debug/CMakeFiles/rebuild_cache.dir
