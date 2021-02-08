@@ -43,7 +43,7 @@ int hash(int key, int size){
 int find_probC(HTable h, int key, int *number_probs){
     int p= hash(key, HSIZE);
     int count= HSIZE, probs= 0;
-    for(; count> HSIZE && h[p].probC!= FREE && h[p].key!= key; count--, probs++) p= (p+ 1)% HSIZE;
+    for(; count> 0 && h[p].probC!= FREE && h[p].key!= key; count--, probs++) p= (p+ 1)% HSIZE;
     if(count== 0) p= -1;
     if(h[p].probC== FREE) *number_probs= probs;
     return p;
