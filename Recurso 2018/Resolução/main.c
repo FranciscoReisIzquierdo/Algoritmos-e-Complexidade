@@ -23,7 +23,7 @@ typedef struct edgeG{
 }*Elist;
 
 typedef Elist Graph[NV];
-
+Esquerdo é gay
 /*
 //Exercício 1
  Invariante: 0<= i<= N-1 && r<= i && forall(r<= k<= i) v[k]<= v[i]
