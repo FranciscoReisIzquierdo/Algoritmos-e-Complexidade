@@ -59,7 +59,7 @@ int depth_First_Otimizado(Grafo g, int vertice, int visitados[], int original){
             visitados[it-> destino]= vertice;
             count+= depth_First_Otimizado(g, it-> destino, visitados, original);
         }
-        else if(visitados[it-> destino]>= 0 || visitados[it-> destino]== original) return -1;
+        else if(visitados[it-> destino]>= 0 || visitados[it-> destino]== original || it-> destino== original) return -1;
     }
     return count;
 }
